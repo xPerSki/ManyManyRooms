@@ -1,0 +1,62 @@
+{
+  "0": {
+    "Enemies": "This room is clear",
+    "Items": "Flashlight",
+    "Description": "You suddenly wake up in a dark room. All you can see is a source of thin light. You come closer to see what it is. It happens to be just a regular flashlight. You pick it up, and then you go deeper into the darkness..."
+
+  },
+
+  "1": {
+    "Enemies": "A single, growling zombie",
+    "Items": "Rusty key",
+    "Description": "The door creaks open to reveal a damp, musty room. The air is thick with the stench of decay, making it hard to breathe. You hear a low, guttural growl and your heart races. In the far corner, a zombie shambles towards you, its lifeless eyes fixated on you. Despite the fear clawing at your insides, you notice a rusty key on a table near the wall. It might be your only way out."
+  },
+
+  "2": {
+    "Enemies": "This room is clear",
+    "Items": "Health potion",
+    "Description": "You step into an eerily quiet room, your footsteps echoing off the stone walls. Ancient runes, faintly glowing, cover every inch of the room, casting an otherworldly light. In the center, on a pedestal, rests a small, glowing vial. As you approach, you feel warmth emanating from it – a health potion. It promises some relief from the perils you've faced so far."
+  },
+
+  "3": {
+    "Enemies": "Two giant spiders",
+    "Items": "Silver dagger",
+    "Description": "Cobwebs hang like curtains from the ceiling, and you can hear the skittering of legs on stone. Two enormous spiders descend from above, their eyes glinting with malice. Your pulse quickens as you realize they're blocking your path. But then, in the corner, a glint catches your eye – a silver dagger. It might just be your salvation against these monstrous arachnids."
+  },
+
+  "4": {
+    "Enemies": "This room is clear",
+    "Items": "Ancient map",
+    "Description": "Dust fills the air as you enter, causing you to stifle a cough. The walls are lined with old, crumbling books and scrolls, their knowledge lost to time. In the center of the room, a large table holds an ancient map, its edges frayed and ink faded. Studying it, you realize it details pathways and hidden rooms that could lead you closer to freedom."
+  },
+
+  "5": {
+    "Enemies": "A shadowy figure",
+    "Items": "None",
+    "Description": "Darkness engulfs the room, save for a single flickering candle that casts long shadows on the walls. A chill runs down your spine as a shadowy figure looms near the far wall, its eyes glinting with an ominous light. It steps closer, and you can feel an overwhelming sense of dread. There's no item to help you here – just the lingering presence of something deeply unsettling."
+  },
+
+  "6": {
+    "Enemies": "This room is clear",
+    "Items": "Magic amulet",
+    "Description": "Soft, blue light bathes the room, emanating from a mystical circle inscribed on the floor. The air hums with magical energy, and you feel a strange sense of calm. In the center of the circle, a magic amulet hovers, spinning slowly. Its power is palpable, and you sense it could offer great protection or aid in the trials ahead."
+  },
+
+  "7": {
+    "Enemies": "Three skeletal warriors",
+    "Items": "Shield",
+    "Description": "The sound of clattering bones greets you as you step into the room. A cold, unsettling presence fills the air, making your skin crawl. Three skeletal warriors, clad in ancient armor, stand guard over a pile of old weapons. Among them, you spot a sturdy shield. As the skeletons advance, you realize you'll need it to fend off their relentless assault."
+  },
+
+  "8": {
+    "Enemies": "This room is clear",
+    "Items": "Lockpick set",
+    "Description": "The room is small and claustrophobic, with rough stone walls that seem to close in on you. Every sound is amplified in the confined space. On a wooden shelf, you find a lockpick set. It’s a small glimmer of hope, a tool that might unlock barriers you have yet to face, providing a way to escape or find hidden treasures."
+  },
+
+  "9": {
+    "Enemies": "A fire-breathing dragon",
+    "Items": "Golden chalice",
+    "Description": "You enter a vast, cavernous room, the ceiling soaring high above and walls sparkling with embedded gems. The ground trembles beneath your feet, and you feel the heat before you see it. In the center of the room, a colossal dragon, its scales shimmering with fire, guards a golden chalice. The dragon’s eyes lock onto you, and you know this will be your greatest challenge yet. The chalice it guards could hold unimaginable power, but you'll have to face the beast to claim it."
+  }
+}
