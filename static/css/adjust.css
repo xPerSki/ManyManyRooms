@@ -11,3 +11,8 @@
     font-size: 60px;
     margin-top: 50px;
 }
+
+.big-left-right {
+    margin-left: 500px;
+    margin-right: 500px;
+}
