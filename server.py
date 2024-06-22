@@ -9,13 +9,23 @@ def main():
     return render_template("index.html")
 
 
-@app.route("/game")
-def game():
+@app.route("/game/room<int:room_number>")
+def room(room_number):
+    game_room = game.Room(room_number)
+    game_player = game.Player()
+
+    if room_number == 0:
+        game_player.wipe_data()
+        game_player.generate_stats()
+
     game_variables = {
-        "room": 0,
-        "health": 0,
-        "damage": 0,
-        "luck": 0,
+        "room": room_number,
+        "description": game_room.get_description(),
+        "enemies": game_room.get_enemies(),
+        "items": game_room.get_items(),
+        "health": game_player.get_health(),
+        "damage": game_player.get_damage(),
+        "luck": game_player.get_luck(),
     }
     return render_template("game.html", **game_variables)
 
