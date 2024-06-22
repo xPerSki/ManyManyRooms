@@ -18,6 +18,11 @@ def room(room_number):
         game_player.wipe_data()
         game_player.generate_stats()
 
+    elif game_room.max_room < room_number < 777:
+        room_number, game_room.room_number = 777, 777
+    elif room_number > 777:
+        room_number, game_room.room_number = 1337, 1337
+
     game_variables = {
         "room": room_number,
         "max_rooms": game_room.max_room,
@@ -28,16 +33,11 @@ def room(room_number):
         "damage": game_player.get_damage(),
         "luck": game_player.get_luck(),
         "keys": game_player.get_keys(),
-        "left": game.roll_dice(2),
-        "straight": game.roll_dice(4),
-        "right": game.roll_dice(3),
+        "left": game.roll_dice(m=2),
+        "straight": game.roll_dice(m=4),
+        "right": game.roll_dice(m=3),
         "fight": 1 if game_room.check_enemies() else 0
     }
-
-    if game_room.max_room < room_number < 777:
-        game_variables["room"] = 777
-    elif room_number > 777:
-        game_variables["room"] = 1337
 
     print(f"HP: {game_variables['health']}\nDMG: {game_variables['damage']}\nLUCK: {game_variables['luck']}\nKEYS: {game_variables['keys']}\n")
     return render_template("game.html", **game_variables)
