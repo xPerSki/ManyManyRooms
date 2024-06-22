@@ -332,7 +332,7 @@
   },
   "66": {
     "Enemies": "A rogue bandit",
-    "Items": "None",
+    "Items": "Health Potion (+5 HP)",
     "Description": "The room feels like a den of thieves, with makeshift furniture and scattered loot. A rogue bandit eyes you with hostility, ready to defend his ill-gotten gains. You prepare yourself for a confrontation."
   },
   "67": {
@@ -377,7 +377,7 @@
   },
   "75": {
     "Enemies": "A menacing troll",
-    "Items": "None",
+    "Items": "Troll Healing Herbs (+3 HP)",
     "Description": "The room shakes as a massive, hulking troll stomps into view, its breath heavy with the stench of decay. Its club swings threateningly, and you know you're in for a brutal fight."
   },
   "76": {
@@ -457,7 +457,7 @@
   },
   "91": {
       "Enemies": "Goblin",
-      "Items": "None",
+      "Items": "Health Potion (+5 HP)",
       "Description": "You cautiously enter a dimly lit room, its walls adorned with mysterious runes. A small goblin, no taller than your waist, stands guard near a corner. Its eyes gleam with mischief as it clutches a broken mirror, reflecting shards of misfortune around the room."
   },
   "92": {
