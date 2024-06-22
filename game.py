@@ -47,11 +47,39 @@ class Room:
         if items != "None":
             stat_changes = {
                 "health": ("health", 5),
-                "dagger": ("damage", 3),
+                "starlit": ("health", 4),
+                "herb": ("health", 3),
+                "honey": ("health", 3),
+                "phoenix": ("health", 1),
+                "poison": ("health", -2),
+                "poisonous": ("health", -2),
+                "spikes": ("health", -1),
+                "rotten": ("health", -1),
+                "weakened potion": ("health", -1),
+
+                "sword": ("damage", 3),
+                "dagger": ("damage", 2),
+                "broken axe": ("damage", -2),
+                "damage potion": ("damage", -2),
+                "strange vial": ("damage", -5),
+
                 "map": ("luck", 2),
+                "coin": ("luck", 1),
+                "necklace": ("luck", 1),
+                "locket": ("luck", 1),
+                "pendant": ("luck", 1),
+                "mysterious": ("luck", 1),
+                "ring": ("luck", 1),
+                "mirage": ("luck", 1),
+                "gemstone": ("luck", 1),
+                "charm": ("luck", 1),
+                "amulet": ("luck", 1),
+                "chain": ("luck", -2),
+                "mirror": ("luck", -2),
+                "cursed": ("luck", -3),
+                "skull": ("luck", -3),
+
                 "key": ("keys", 1),
-                "coin": ("luck", 2),
-                "herb": ("health", 3)
             }
             for item, (stat, value) in stat_changes.items():
                 if item in items.lower():
