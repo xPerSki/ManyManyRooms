@@ -39,7 +39,6 @@ def room(room_number):
         "fight": 1 if game_room.check_enemies() else 0
     }
 
-    print(f"HP: {game_variables['health']}\nDMG: {game_variables['damage']}\nLUCK: {game_variables['luck']}\nKEYS: {game_variables['keys']}\n")
     return render_template("game.html", **game_variables)
 
 
