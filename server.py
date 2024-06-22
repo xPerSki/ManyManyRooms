@@ -26,6 +26,10 @@ def room(room_number):
         "health": game_player.get_health(),
         "damage": game_player.get_damage(),
         "luck": game_player.get_luck(),
+        "keys": game_player.get_keys(),
+        "left": game.roll_dice(3),
+        "straight": game.roll_dice(3),
+        "right": game.roll_dice(3),
     }
     return render_template("game.html", **game_variables)
 
