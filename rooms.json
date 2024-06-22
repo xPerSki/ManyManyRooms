@@ -31,17 +31,17 @@
   },
   "6": {
     "Enemies": "This room is clear",
-    "Items": "Magic Amulet (magic item)",
+    "Items": "Magic Amulet (unlocks magic items)",
     "Description": "Soft, blue light bathes the room, emanating from a mystical circle inscribed on the floor. The air hums with magical energy, and you feel a strange sense of calm. In the center of the circle, a magic amulet hovers, spinning slowly. Its power is palpable, and you sense it could offer great protection or aid in the trials ahead."
   },
   "7": {
-    "Enemies": "This room is clear",
+    "Enemies": "Lying Skeletons (escaped)",
     "Items": "None",
     "Description": "The sound of clattering bones greets you as you step into the room. A cold, unsettling presence fills the air, making your skin crawl. Three skeletal warriors are lying on the floor. Among them, you spot a sturdy shield. As the skeletons advance, you realize you have to run."
   },
   "8": {
     "Enemies": "This room is clear",
-    "Items": "Few Coins (+2 LUCK)",
+    "Items": "Few Coins (+1 LUCK)",
     "Description": "The room is small and claustrophobic, with rough stone walls that seem to close in on you. Every sound is amplified in the confined space. On a wooden shelf, you find a few coins."
   },
   "9": {
@@ -77,77 +77,633 @@
   "15": {
     "Enemies": "This room is clear",
     "Items": "None",
-    "Description": "The room is warm and humid, reminiscent of a jungle. Coiled in the center is a giant serpent, its eyes following your every move. The serpent hisses menacingly, blocking your path and leaving you with no choice but to confront it."
+    "Description": "The room is warm and humid, reminiscent of a jungle. Coiled in the center is a giant serpent made of stone, its eyes following your every move. The serpent is a magical creature petrified by a wise mage. You leave it as it is."
   },
   "16": {
     "Enemies": "This room is clear",
-    "Items": "Golden locket",
-    "Description": "This room is serene, with walls adorned with beautiful tapestries. On a velvet cushion in the center rests a golden locket. It looks valuable and possibly enchanted, promising to hold more than just memories."
+    "Items": "Broken Axe",
+    "Description": "This room is serene, with walls adorned with beautiful tapestries. On a velvet cushion in the center rests a broken golden axe. It looks valuable and possibly enchanted, promising to hold great power."
   },
+
   "17": {
-    "Enemies": "This room is clear",
-    "Items": "None",
-    "Description": "The temperature drops sharply as you enter this room. A ghostly apparition materializes before you, its hollow eyes filled with sorrow. The ghost moves closer, its presence filling you with a profound sense of melancholy."
+    "Enemies": "An enchanted suit of armor",
+    "Items": "Enchanted Shield",
+    "Description": "You step into what looks like an armory. In the center, an enchanted suit of armor comes to life, raising its sword menacingly. Amid the other weapons and gear, you spot an enchanted shield, possibly your only defense."
   },
   "18": {
     "Enemies": "This room is clear",
-    "Items": "Bag of gold coins",
-    "Description": "You find yourself in a room that resembles a treasure chamber. Piles of gold coins and jewels are scattered across the floor. A large bag of gold coins sits temptingly near the entrance, offering a chance to enrich yourself."
-  },
-  "19": {
-    "Enemies": "A pair of goblins",
-    "Items": "Short sword",
-    "Description": "The room is filled with the smell of damp earth and the sounds of mischievous laughter. Two goblins dart around, eyeing you with malicious intent. In the midst of their clutter, you see a short sword that could help even the odds."
-  },
-  "20": {
-    "Enemies": "This room is clear",
-    "Items": "Ancient tome",
-    "Description": "The room is lined with tall, dusty bookshelves. An ancient tome lies open on a reading desk, its pages filled with cryptic symbols and arcane knowledge. It beckons you to uncover its secrets."
-  },
-  "21": {
-    "Enemies": "This room is clear",
-    "Items": "Bow and arrows",
-    "Description": "You step into a forest-like room, the ground covered in leaves and the air filled with the scent of pine. A pack of wild wolves emerges from the shadows, growling. Against a tree, you spot a bow and arrows, your potential salvation."
-  },
-  "22": {
-    "Enemies": "This room is clear",
-    "Items": "Magic ring",
-    "Description": "Soft, shimmering light fills the room, reflecting off the walls. In the center, on a marble pedestal, rests a magic ring. It pulses with a faint, mystical energy, promising great power to its wearer."
-  },
-  "23": {
-    "Enemies": "A fierce minotaur",
-    "Items": "Battle axe",
-    "Description": "The room is a labyrinth of stone walls, with the air filled with the sound of hooves. A fierce minotaur charges at you, its eyes burning with rage. Near the entrance, you see a battle axe, heavy but powerful."
-  },
-  "24": {
-    "Enemies": "This room is clear",
-    "Items": "Bottle of elven wine",
-    "Description": "The room is reminiscent of an elven banquet hall, with elegant carvings and soft, ethereal music. On a table covered in fine cloth, you find a bottle of elven wine. It’s said to have restorative properties."
-  },
-  "25": {
-    "Enemies": "This room is clear",
-    "Items": "None",
-    "Description": "The room feels like a den of thieves, with makeshift furniture and scattered loot. A group of bandits eyes you with hostility, ready to defend their ill-gotten gains."
-  },
-  "26": {
-    "Enemies": "This room is clear",
-    "Items": "Gemstone necklace",
-    "Description": "The room sparkles with light reflecting off numerous gemstones embedded in the walls. On a velvet cushion, a gemstone necklace catches your eye. Its beauty is mesmerizing, and it seems to radiate a subtle energy."
-  },
-  "27": {
-    "Enemies": "An enchanted suit of armor",
-    "Items": "Shield",
-    "Description": "You step into what looks like an armory. In the center, an enchanted suit of armor comes to life, raising its sword menacingly. Amid the other weapons and gear, you spot a sturdy shield, possibly your only defense."
-  },
-  "28": {
-    "Enemies": "This room is clear",
-    "Items": "Map fragment",
+    "Items": "Map fragment (+2 LUCK)",
     "Description": "The room is small and filled with old, crumbling papers. On a desk, under a pile of documents, you find a map fragment. It looks like it could complete a larger map, possibly leading to hidden treasure or secrets."
   },
-  "29": {
+  "19": {
     "Enemies": "A powerful sorcerer",
     "Items": "None",
     "Description": "The room is filled with arcane symbols and the air crackles with magical energy. A powerful sorcerer stands in the center, chanting an incantation. His eyes meet yours, and you feel a wave of magical force emanate from him, challenging you."
+  },
+  "20": {
+    "Enemies": "A fierce goblin",
+    "Items": "None",
+    "Description": "The room is dimly lit, with shadows dancing on the walls. A fierce goblin snarls at you from the corner, ready to attack. You brace yourself for battle, knowing you must defeat it to continue."
+  },
+  "21": {
+    "Enemies": "This room is clear",
+    "Items": "Old map (+2 LUCK)",
+    "Description": "You step into a small, dusty room filled with the scent of aged paper. On a wooden desk, you find an old map. Its faded lines and ancient symbols suggest it might lead to hidden treasures or secret passages."
+  },
+  "22": {
+    "Enemies": "This room is clear",
+    "Items": "Silver coin (+1 LUCK)",
+    "Description": "The room is quiet, with only the sound of your footsteps echoing off the stone walls. On the ground, you spot a silver coin glinting in the faint light. It seems valuable, and you decide to take it with you."
+  },
+  "23": {
+    "Enemies": "This room is clear",
+    "Items": "Herbal remedy (+3 HP)",
+    "Description": "A pleasant, earthy aroma greets you as you enter. The room is filled with shelves of dried herbs and plants. On one shelf, you find a small jar labeled 'Herbal Remedy,' which could prove useful for healing."
+  },
+  "24": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "You find yourself in a bare, empty room. The silence is almost deafening, and there's nothing of interest here. You move on quickly, eager to find something more promising."
+  },
+  "25": {
+    "Enemies": "A lurking shadow",
+    "Items": "None",
+    "Description": "The room is cloaked in darkness, with only a faint outline of a figure visible. As you step closer, a shadowy form lunges at you, its movements quick and fluid. You prepare yourself to fight the lurking shadow."
+  },
+  "26": {
+    "Enemies": "This room is clear",
+    "Items": "Rusty dagger (+2 DMG)",
+    "Description": "The air is thick with the smell of rust and decay. On an old, decrepit table, you find a rusty dagger. Though it's seen better days, it might still serve as a weapon in desperate times."
+  },
+  "27": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty, with nothing but dust and cobwebs. It seems like no one has been here for ages. You quickly scan the area and decide to move on, hoping to find something more useful."
+  },
+  "28": {
+    "Enemies": "A giant spider",
+    "Items": "None",
+    "Description": "You enter a room covered in cobwebs. Suddenly, a giant spider descends from the ceiling, its fangs bared. The sight of the creature sends a shiver down your spine as you ready yourself for a fight."
+  },
+  "29": {
+    "Enemies": "This room is clear",
+    "Items": "Healing herb (+3 HP)",
+    "Description": "Soft light filters into the room, illuminating a patch of green near the wall. You approach and find a healing herb growing there. Its fresh scent promises to restore some of your health."
+  },
+  "30": {
+    "Enemies": "This room is clear",
+    "Items": "Scattered piece of Paper",
+    "Description": "The room is filled with scattered papers and old books. Among the mess, you find an ancient map fragment. It looks like it could fit with other pieces to form a complete map, leading to untold secrets."
+  },
+  "31": {
+    "Enemies": "A skeletal warrior",
+    "Items": "None",
+    "Description": "Bones crunch underfoot as you enter the room. A skeletal warrior rises from the debris, its empty eye sockets glowing with an eerie light. You must defeat this undead guardian to proceed."
+  },
+  "32": {
+    "Enemies": "This room is clear",
+    "Items": "Bronze coin (+1 LUCK)",
+    "Description": "The room is musty and filled with the scent of old metal. On a stone pedestal, you find a bronze coin, its surface worn smooth by time. You pocket it, hoping it will bring you luck."
+  },
+  "33": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is stark and bare, with nothing to offer but silence. You feel a sense of disappointment as you realize there's nothing of value here. Determined, you move on."
+  },
+  "34": {
+    "Enemies": "A rogue bandit",
+    "Items": "None",
+    "Description": "The room is filled with the scent of smoke and leather. A rogue bandit steps out from the shadows, brandishing a knife. His eyes gleam with greed as he attacks, forcing you to defend yourself."
+  },
+  "35": {
+    "Enemies": "This room is clear",
+    "Items": "Detailed map (+2 LUCK)",
+    "Description": "You find yourself in a study lined with bookshelves. On a desk cluttered with papers, you find a detailed map. It shows the layout of the dungeon, including secret passages and hidden rooms."
+  },
+  "36": {
+    "Enemies": "This room is clear",
+    "Items": "Dagger of the night (+2 DMG)",
+    "Description": "The room is dimly lit, with shadows flickering on the walls. On an ornate stand, you find the Dagger of the Night. Its blade is black as midnight and it feels unusually light in your hand."
+  },
+  "37": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty and silent, with no signs of life or activity. You scan the area, but there is nothing of interest or value. You decide to leave quickly and continue your journey."
+  },
+  "38": {
+    "Enemies": "A swarm of bats",
+    "Items": "None",
+    "Description": "As you step into the room, a swarm of bats swoops down from the ceiling, their wings flapping loudly. They circle around you, making it hard to see or move. You need to find a way to drive them off."
+  },
+  "39": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is filled with an eerie silence. There's nothing here but dust and shadows. You feel a slight chill as you quickly glance around, then move on, hoping for better luck in the next room."
+  },
+  "40": {
+    "Enemies": "This room is clear",
+    "Items": "Medicinal herb (+3 HP)",
+    "Description": "You enter a room that smells of fresh earth and plants. In the corner, you find a small patch of medicinal herbs growing. They look like they could be used to heal minor wounds and restore some health."
+  },
+  "41": {
+    "Enemies": "This room is clear",
+    "Items": "Golden ring (+1 LUCK)",
+    "Description": "The room glows with a soft, golden light. On a pedestal in the center lies a golden ring, its surface engraved with intricate designs. You feel a sense of power emanating from it, drawing you closer."
+  },
+  "42": {
+    "Enemies": "A lurking shadow",
+    "Items": "None",
+    "Description": "As you step into the room, you sense a presence watching you. A shadow detaches itself from the corner and lunges at you. You prepare yourself to fight off this eerie, lurking shadow."
+  },
+  "43": {
+    "Enemies": "This room is clear",
+    "Items": "Chain mail armor (-2 LUCK)",
+    "Description": "The room is filled with the scent of metal and oil. Hanging on a rack, you find a set of chain mail armor. It looks old but sturdy, and it might provide much-needed protection in the battles ahead. Despite its sturdyiness it's very heavy, you might have a problem carrying it."
+  },
+  "44": {
+    "Enemies": "This room is clear",
+    "Items": "Rotten fruit (-1 HP)",
+    "Description": "The air in the room is stale and unpleasant. On a table, you find a piece of rotten fruit, covered in mold. You wrinkle your nose at the sight and decide it's best to leave it untouched."
+  },
+  "45": {
+    "Enemies": "A fierce goblin",
+    "Items": "None",
+    "Description": "The room is dimly lit, with flickering torches casting eerie shadows. A fierce goblin jumps out from behind a pillar, brandishing a rusty sword. You must defend yourself against its vicious attack."
+  },
+  "46": {
+    "Enemies": "This room is clear",
+    "Items": "Iron necklace (+1 LUCK)",
+    "Description": "You enter a room filled with the sound of clinking metal. On a table, you find an iron necklace. It looks heavy and well-crafted, with an inscription that you can't quite decipher."
+  },
+  "47": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty and silent, with nothing but dust and cobwebs. You quickly scan the area, but there is nothing of interest or value. You decide to leave quickly and continue your journey."
+  },
+  "48": {
+    "Enemies": "A pack of wolves",
+    "Items": "None",
+    "Description": "You hear a low growl as you enter the room. A pack of wolves emerges from the shadows, their eyes glowing menacingly. You ready your weapon, knowing you must fight your way through."
+  },
+  "49": {
+    "Enemies": "This room is clear",
+    "Items": "Poisoned soup (-2 HP)",
+    "Description": "The room has a large cauldron bubbling in the center. The smell of the soup inside is enticing, but you notice a strange, oily sheen on its surface. You realize it must be poisoned and decide to leave it be."
+  },
+  "50": {
+    "Enemies": "This room is clear",
+    "Items": "Spiked gauntlets (-1 HP)",
+    "Description": "The room is filled with weapon racks and armor stands. Among the gear, you find a pair of spiked gauntlets. They look brutal and effective. You try to pick them up, and then you cut yourself with a spiky thing. It may hurt for a while."
+  },
+  "51": {
+    "Enemies": "A giant spider",
+    "Items": "None",
+    "Description": "The room is covered in cobwebs, and you can hear the skittering of legs. A giant spider descends from the ceiling, its fangs bared. You prepare yourself for a fight against the monstrous arachnid."
+  },
+  "52": {
+    "Enemies": "This room is clear",
+    "Items": "Silver sword (+3 DMG)",
+    "Description": "The room is filled with the glint of polished metal. On a rack, you find a silver sword. Its blade is sharp and finely crafted, promising to be a valuable weapon in your arsenal."
+  },
+  "53": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty, with nothing but bare stone walls. The silence is almost deafening, and there's nothing of interest here. You move on quickly, eager to find something more promising."
+  },
+  "54": {
+    "Enemies": "A bandit",
+    "Items": "None",
+    "Description": "You enter a room that looks like a hideout. A bandit leaps out at you, swinging a dagger. His eyes gleam with greed as he attacks, and you have no choice but to defend yourself."
+  },
+  "55": {
+    "Enemies": "This room is clear",
+    "Items": "Steel chain (-2 LUCK)",
+    "Description": "The room is filled with the clinking sound of metal. You find a steel chain lying on a table. It's heavy and strong, though it won't be very useful in the deeper exploration."
+  },
+  "56": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is stark and bare, with nothing to offer but silence. You feel a sense of disappointment as you realize there's nothing of value here. Determined, you move on."
+  },
+  "57": {
+    "Enemies": "A ghostly apparition",
+    "Items": "None",
+    "Description": "The temperature drops sharply as you enter this room. A ghostly apparition materializes before you, its hollow eyes filled with sorrow. The ghost moves closer, its presence filling you with a profound sense of dread."
+  },
+  "58": {
+    "Enemies": "This room is clear",
+    "Items": "Damage potion (-2 DMG)",
+    "Description": "The room is filled with shelves of potions and elixirs. Among them, you find a damage reversal potion. Its dark, bubbling contents promise to increase your combat effectiveness when consumed. You take a sip, but it tastes horrible. It could be either poisoned or expired."
+  },
+  "59": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty, with only the sound of your footsteps echoing off the stone walls. There's nothing of interest here, and you move on quickly, hoping for better luck in the next room."
+  },
+  "60": {
+    "Enemies": "A skeletal warrior",
+    "Items": "None",
+    "Description": "Bones crunch underfoot as you enter the room. A skeletal warrior rises from the debris, its empty eye sockets glowing with an eerie light. You must defeat this undead guardian to proceed."
+  },
+  "61": {
+    "Enemies": "This room is clear",
+    "Items": "Magic ring (+1 LUCK)",
+    "Description": "The room is dimly lit, with a soft glow emanating from a pedestal in the center. On the pedestal lies a magic ring, pulsing with arcane energy. You feel its power calling to you, promising great potential."
+  },
+  "62": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is stark and empty, with nothing but cold stone walls. You feel a chill as you realize there's nothing of interest here. Determined, you move on to find something more promising."
+  },
+  "63": {
+    "Enemies": "A swarm of bats",
+    "Items": "None",
+    "Description": "You hear a flurry of wings as you enter the room. A swarm of bats swoops down from the ceiling, their high-pitched squeaks filling the air. You wave them off as you make your way through the room."
+  },
+  "64": {
+    "Enemies": "This room is clear",
+    "Items": "Ornate necklace (+1 LUCK)",
+    "Description": "The room is filled with an eerie, bluish light. On a table, you find an ornate necklace, decorated with intricate patterns and gemstones. It looks valuable and possibly enchanted."
+  },
+  "65": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty and silent, with no signs of life or activity. You scan the area, but there is nothing of interest or value. You decide to leave quickly and continue your journey."
+  },
+  "66": {
+    "Enemies": "A rogue bandit",
+    "Items": "None",
+    "Description": "The room feels like a den of thieves, with makeshift furniture and scattered loot. A rogue bandit eyes you with hostility, ready to defend his ill-gotten gains. You prepare yourself for a confrontation."
+  },
+  "67": {
+    "Enemies": "This room is clear",
+    "Items": "Jeweled sword (+3 DMG)",
+    "Description": "The room is filled with the glint of precious metals. On a rack, you find a jeweled sword, its hilt encrusted with sparkling gems. The blade is sharp and well-balanced, a perfect addition to your arsenal."
+  },
+  "68": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty, with only the sound of your footsteps echoing off the stone walls. There's nothing of interest here, and you move on quickly, hoping for better luck in the next room."
+  },
+  "69": {
+    "Enemies": "A vicious werewolf",
+    "Items": "None",
+    "Description": "The room is dimly lit, with the full moon casting eerie shadows. A vicious werewolf snarls at you from the corner, its eyes glowing with a savage hunger. You must fight to survive this ferocious beast."
+  },
+  "70": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is empty, with nothing but the cold stone walls surrounding you. The silence is almost oppressive, and you quickly move on, hoping to find something more worthwhile ahead."
+  },
+  "71": {
+    "Enemies": "A pack of wild wolves",
+    "Items": "None",
+    "Description": "The room is filled with the sound of growling and scraping claws as a pack of wild wolves surrounds you. Their eyes gleam with hunger, and you realize you must fight for your life."
+  },
+  "72": {
+    "Enemies": "This room is clear",
+    "Items": "Golden key (+1 KEY)",
+    "Description": "The room is bathed in a soft golden light that seems to emanate from a large, ancient key resting on a stone pedestal. Its intricate design suggests it might unlock something of great value."
+  },
+  "73": {
+    "Enemies": "A cunning thief",
+    "Items": "Potion of Invisibility",
+    "Description": "You step into a shadowy room where the air is thick with the scent of danger. A cunning thief lurks in the darkness, eyeing you with greed. Nearby, a vial containing a potion of invisibility catches your eye - perhaps your best chance to outwit the thief."
+  },
+  "74": {
+    "Enemies": "This room is clear",
+    "Items": "Scroll of Fireball (unleashes fire magic)",
+    "Description": "In the center of the room, a scroll rests on a pedestal, its edges glowing with faint orange light. The scroll of fireball, a powerful spell, promises fiery destruction to your enemies."
+  },
+  "75": {
+    "Enemies": "A menacing troll",
+    "Items": "None",
+    "Description": "The room shakes as a massive, hulking troll stomps into view, its breath heavy with the stench of decay. Its club swings threateningly, and you know you're in for a brutal fight."
+  },
+  "76": {
+    "Enemies": "This room is clear",
+    "Items": "Phoenix feather (+1 HP)",
+    "Description": "A gentle warmth fills the room, and you spot a radiant phoenix feather resting on a small, ornate stand. It pulses with life and promise, hinting at miraculous fortune ahead."
+  },
+  "77": {
+    "Enemies": "A swarm of giant bees",
+    "Items": "Honey potion (+3 HP)",
+    "Description": "The air buzzes with the sound of wings as a swarm of giant bees fills the room. Amidst the chaos, you notice a small vial containing a honey potion, which could heal your wounds."
+  },
+  "78": {
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The room is bathed in a soft, ethereal glow emanating from a crystal shard lying on the floor. Its facets catch and refract the light, casting colorful patterns across the walls."
+  },
+  "79": {
+    "Enemies": "A fearsome minotaur",
+    "Items": "Enchanted horn (Trophy)",
+    "Description": "The room echoes with the heavy footsteps of a fearsome minotaur, its eyes fixed on you with savage intent. Nearby, a gleaming horn lies on the ground - an enchanted artifact that might aid in your survival."
+  },
+  "80": {
+    "Enemies": "This room is clear",
+    "Items": "Lucky coin (+1 LUCK)",
+    "Description": "The room is simple yet intriguing, with a single coin resting on a stone pedestal. Its surface glimmers with an otherworldly sheen, promising to bring luck to whoever possesses it."
+  },
+  "81": {
+    "Enemies": "A pack of restless spirits",
+    "Items": "Spirit talisman",
+    "Description": "Ethereal forms swirl around the room, moaning and wailing in anguish. Among them, you spot a glowing spirit talisman that seems to repel the restless spirits, offering protection against their haunting presence."
+  },
+  "82": {
+    "Enemies": "This room is clear",
+    "Items": "Moonstone amulet (+1 LUCK)",
+    "Description": "Soft moonlight filters through a high window, illuminating a moonstone amulet lying on a velvet pillow. Its pale, luminescent stone seems to hold the serene power of the moon itself."
+  },
+  "83": {
+    "Enemies": "A cunning witch",
+    "Items": "Witch's broomstick",
+    "Description": "The room is filled with the scent of herbs and arcane symbols drawn on the floor. A cunning witch stands before you, her eyes gleaming with magic. Nearby, a broomstick that crackles with power lies within reach."
+  },
+  "84": {
+    "Enemies": "This room is clear",
+    "Items": "Glowing crystal",
+    "Description": "The room glows softly with the light of a large, glowing crystal resting on a stone pedestal. Its pulsating energy fills you with a sense of calm and clarity."
+  },
+  "85": {
+    "Enemies": "A monstrous ogre",
+    "Items": "None",
+    "Description": "The room trembles as a monstrous ogre charges towards you, its massive fists swinging. Its roar echoes off the stone walls, sending shivers down your spine."
+  },
+  "86": {
+    "Enemies": "This room is clear",
+    "Items": "Strange Vial (-5 DMG)",
+    "Description": "A faint aroma of herbs and spice fills the room, emanating from a small vial containing strange fluid. Its contents promise to bolster your physical might, giving you an edge in combat. After drinking the potion, you read the small piece of paper on its back, which says: Humans musn't drink this! Now shall we wait for the side effects."
+  },
+  "87": {
+    "Enemies": "A mystical guardian",
+    "Items": "Ancient rune stone",
+    "Description": "The air hums with arcane energy as a mystical guardian materializes before you, wielding powerful magic. On a pedestal nearby, an ancient rune stone glows faintly, offering insight into ancient mysteries."
+  },
+  "88": {
+    "Enemies": "This room is clear",
+    "Items": "Mirror of Truth (-2 LUCK)",
+    "Description": "A large mirror dominates the room, its surface reflecting an inner truth. The mirror of truth holds the power to reveal secrets and hidden knowledge, if you dare to gaze into it."
+  },
+  "89": {
+    "Enemies": "A cunning assassin",
+    "Items": "Smoke bomb (stealth item)",
+    "Description": "Silence fills the room as you sense a presence lurking in the shadows. A cunning assassin emerges, blade glinting in the dim light. Nearby, a smoke bomb rests on a table, offering a chance to evade the deadly foe."
+  },
+  "90": {
+    "Enemies": "This room is clear",
+    "Items": "Starlight pendant (+1 LUCK)",
+    "Description": "The room is bathed in a soft, celestial glow emanating from a starlight pendant hanging on a silver chain. Its radiant light promises guidance and protection in the darkest of times."
+  },
+  "91": {
+      "Enemies": "Goblin",
+      "Items": "None",
+      "Description": "You cautiously enter a dimly lit room, its walls adorned with mysterious runes. A small goblin, no taller than your waist, stands guard near a corner. Its eyes gleam with mischief as it clutches a broken mirror, reflecting shards of misfortune around the room."
+  },
+  "92": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "The air in this room is thick with the scent of damp earth and medicinal herbs. You spot a small cache of herbs tucked away in a corner. Upon closer inspection, some of the herbs appear wilted and discolored, tainted by unknown forces."
+  },
+  "93": {
+      "Enemies": "Orc",
+      "Items": "Rusty dagger (+2 DMG)",
+      "Description": "Stepping into the room, you come face to face with an orc warrior, towering and muscular. In its rough, calloused hand, it grips a rusty dagger, its blade still gleaming with traces of recent battle. The orc snarls, ready to defend its territory with formidable strength."
+  },
+  "94": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "You enter a room filled with scattered relics of forgotten treasures. Amidst the debris, a glint of gold catches your eye—a coin, slightly tarnished but otherwise unremarkable. As you pick it up, an inexplicable chill runs down your spine, as if luck itself has turned against you."
+  },
+  "95": {
+      "Enemies": "Goblin",
+      "Items": "Weakened potion (-1 HP)",
+      "Description": "The room feels strangely humid, with faint wisps of steam rising from crevices in the stone floor. A goblin, quick and nimble, darts across your path, dropping a small vial as it disappears into the shadows. The vial's contents appear diluted and weak, its healing properties questionable at best."
+  },
+  "96": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "You stumble upon a forgotten chamber, its walls etched with symbols of ancient curses and warnings. At the center lies an amulet, its surface pulsating with malevolent energy. Though its craftsmanship is exquisite, an aura of ill fortune emanates from it, unsettling your senses."
+  },
+  "97": {
+      "Enemies": "Orc",
+      "Items": "Poisonous mushroom (-2 HP)",
+      "Description": "The room is dominated by a large, solitary mushroom, its cap a sickly shade of green with purple spots. An orc shaman, draped in crude robes, gestures towards the mushroom with a toothy grin. Without a word, it offers you the poisonous fungi, its intentions masked behind a veil of tribal mysticism."
+  },
+  "98": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "In the corner of this chamber lies a shattered mirror, its fragments scattered like pieces of a forgotten tale. Each shard reflects distorted images, hinting at tales of misfortune and fractured destinies. As you gaze into its broken depths, a sense of foreboding washes over you."
+  },
+  "99": {
+      "Enemies": "Goblin",
+      "Items": "None",
+      "Description": "You stumble upon a stash of herbs, their leaves vibrant with shades of green and gold. Yet, upon closer inspection, you notice subtle discolorations marring their natural beauty. A mischievous goblin cackles nearby, its presence hinting at trickery and concealed dangers."
+  },
+  "100": {
+      "Enemies": "",
+      "Items": "Rusty dagger (+2 DMG)",
+      "Description": "As you explore the room, a glimmer of metal catches your eye amidst the debris—a rusty dagger, weathered by time and use but still sharp enough to pose a threat. Its blade, though tarnished, reflects a dim light that speaks of battles fought and foes vanquished."
+  },
+  "101": {
+      "Enemies": "Orc",
+      "Items": "None",
+      "Description": "In the midst of this chamber's ancient architecture, a lone orc warrior stands guard over a peculiar treasure—a coin, etched with symbols of forgotten kingdoms. As you approach, the orc relinquishes the coin with a grunt, its eyes gleaming with a silent challenge. Little do you know, the coin carries a whispered curse of misfortune."
+  },
+  "102": {
+      "Enemies": "This room is clear",
+      "Items": "Weakened potion (-1 HP)",
+      "Description": "A faint glow emanates from the corner of the room, drawing your attention to a small vial with a faintly shimmering liquid. Upon closer inspection, the potion inside seems diluted, its healing properties diminished. Perhaps once potent, now it offers only a fraction of its intended benefit."
+  },
+  "103": {
+      "Enemies": "Goblin",
+      "Items": "None",
+      "Description": "You stumble upon a peculiar artifact—an amulet adorned with intricate carvings and ancient symbols. Despite its beauty, a sense of unease washes over you as you handle the cursed object. Whispers of ill fortune seem to cling to its polished surface, warning of dire consequences."
+  },
+  "104": {
+      "Enemies": "",
+      "Items": "Poisonous mushroom (-2 HP)",
+      "Description": "The room is dominated by a solitary mushroom, its fungal cap adorned with deadly hues of purple and green. Though its appearance is captivating, a primal instinct warns of its toxicity. Hidden among the undergrowth, the poisonous mushroom offers a deadly temptation."
+  },
+  "105": {
+      "Enemies": "Orc",
+      "Items": "None",
+      "Description": "You encounter an imposing orc chief, adorned with battle scars and ancient tribal markings. At its side lies a broken mirror, its shards reflecting glimpses of a rugged past and uncertain future. The orc regards you with a mixture of wariness and curiosity, as if assessing your resilience against the tides of fate."
+  },
+  "106": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "In this forgotten corner of the dungeon, a collection of herbs lies scattered amidst the debris. Their leaves, once vibrant with healing potential, now bear signs of decay and contamination. Despite their compromised state, a faint essence of medicinal properties lingers, hinting at a fleeting chance for restoration."
+  },
+  "107": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "As you traverse the room's ancient corridors, a glint of metal catches your eye—a coin, seemingly innocuous yet tinged with an unsettling aura. Despite its mundane appearance, a sense of impending misfortune surrounds the jinxed coin, casting shadows upon your path."
+  },
+  "108": {
+      "Enemies": "Orc",
+      "Items": "None",
+      "Description": "An orc warrior stands guard over a small crate in the corner, its contents spilling forth a faintly glowing liquid. The orc regards you with suspicion as you inspect the potion inside, its once potent healing properties now diluted and feeble, offering scant comfort in your journey ahead."
+  },
+  "109": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "Deep within the dungeon's labyrinthine passages, you stumble upon an ancient artifact—a cursed amulet, radiating an aura of malevolence and ill fortune. Its intricate design speaks of forgotten rituals and whispered curses, warning of dire consequences for those who dare to wield its tainted power."
+  },
+  "110": {
+        "Enemies": "Orc",
+        "Items": "None",
+        "Description": "You enter a chamber illuminated by flickering torches, their light casting long shadows across ancient tapestries adorning the walls. Standing before you is an orc warrior, its imposing figure clad in battle-worn armor. Its eyes narrow with suspicion, sizing you up as a potential threat. None."
+  },
+  "111": {
+      "Enemies": "This room is clear",
+      "Items": "Poisonous mushroom (-2 HP)",
+      "Description": "You enter a dimly lit chamber, the air thick with the scent of ancient herbs and damp stone. In the corner, a solitary mushroom stands tall, its cap adorned with deadly hues of purple and green. Though captivating, its toxicity warns of hidden dangers lurking within."
+  },
+  "112": {
+      "Enemies": "Goblin",
+      "Items": "None",
+      "Description": "The room is dominated by a mischievous goblin, its eyes gleaming with curiosity and mischief. With a quick flick of its wrist, the goblin brandishes a rusty dagger, its blade reflecting a dim light that speaks of past battles and questionable motives."
+  },
+  "113": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "You find yourself in a forgotten corner of the dungeon, where shadows dance amidst crumbling stone walls. The silence is deafening, broken only by the faint rustle of dry leaves and distant echoes of forgotten tales. This room is clear."
+  },
+  "114": {
+      "Enemies": "This room is clear",
+      "Items": "Weakened potion (-1 HP)",
+      "Description": "As you step into the chamber, a faint glow emanates from a vial resting upon an ancient pedestal. The potion inside appears diluted and weak, its once potent healing properties now diminished. A sense of caution lingers in the air, hinting at unforeseen challenges ahead."
+  },
+  "115": {
+      "Enemies": "Orc",
+      "Items": "None",
+      "Description": "You encounter an orc warrior, its imposing stature marked by battle scars and ancient runes. Despite the orc's formidable presence, the chamber is eerily quiet, save for the orc's watchful gaze. This room is clear."
+  },
+  "116": {
+      "Enemies": "This room is clear",
+      "Items": "Rusty dagger (+2 DMG)",
+      "Description": "Within this chamber lies a discarded weapon—a rusty dagger, its blade worn but still capable of delivering a decisive blow. As you pick it up, a faint aura of past conflicts surrounds the dagger, hinting at its potential to turn the tide in future battles."
+  },
+  "117": {
+      "Enemies": "Goblin",
+      "Items": "None",
+      "Description": "A mischievous goblin lurks in the shadows, its eyes darting with cunning intent. In its hands, a peculiar artifact—a cursed amulet, pulsating with malevolent energy. The goblin's presence hints at hidden treasures and unforeseen dangers within the chamber. This room is clear."
+  },
+  "118": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "You venture into a chamber filled with remnants of ancient relics and faded tapestries. Each artifact tells a tale of forgotten kingdoms and lost civilizations, their whispers echoing through the silent halls. None."
+  },
+  "119": {
+      "Enemies": "This room is clear",
+      "Items": "Poisonous mushroom (-2 HP)",
+      "Description": "In the heart of this chamber stands a solitary mushroom, its vibrant colors a stark contrast against the dull stone surroundings. Yet, its beauty belies a deadly secret—poisonous spores that threaten those who dare to venture too close."
+  },
+  "120": {
+      "Enemies": "This room is clear",
+      "Items": "Crystal pendant (+1 LUCK)",
+      "Description": "You stumble upon a hidden alcove filled with soft, shimmering light. Nestled within a small niche is a crystal pendant, its facets catching and refracting light in mesmerizing patterns. As you reach out to touch it, a sense of serenity washes over you, accompanied by a subtle feeling of enhanced fortune."
+  },
+  "121": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "In the depths of the dungeon, you find a chamber adorned with ancient runes etched into the walls. The air is heavy with a musty scent, hinting at the passage of centuries. A faint whisper echoes through the room, carrying with it a cryptic message lost to time. None."
+  },
+  "122": {
+      "Enemies": "Basilisk",
+      "Items": "None",
+      "Description": "You cautiously enter a cavernous chamber, the walls adorned with eerie, lifelike stone statues frozen in expressions of fear. A sudden movement catches your eye, and you find yourself face-to-face with a basilisk, its eyes gleaming with malevolent intent. Its deadly gaze threatens to turn you to stone."
+  },
+  "123": {
+      "Enemies": "This room is clear",
+      "Items": "Mysterious potion (+1 LUCK)",
+      "Description": "As you step into the room, a mysterious vial rests on an ancient altar, its contents swirling with iridescent hues. A note nearby suggests that the potion grants unexpected fortune to the brave. With cautious optimism, you decide to take it, hoping for the best."
+  },
+  "124": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "You find yourself in a chamber filled with exotic flora, their vibrant colors a stark contrast to the dungeon's gloomy atmosphere. Amidst the flowers lies a hidden compartment containing a forgotten treasure. As you uncover it, a rush of anticipation fills your heart. None."
+  },
+  "125": {
+      "Enemies": "Cursed Knight",
+      "Items": "None",
+      "Description": "The air in this room feels heavy with a sense of foreboding as you encounter a cursed knight. Clad in tarnished armor and wielding a sword that hums with dark energy, the knight's eyes lock onto yours with an unyielding stare. It seems fate has brought you face-to-face with a formidable adversary."
+  },
+  "126": {
+      "Enemies": "This room is clear",
+      "Items": "Lucky charm (+1 LUCK)",
+      "Description": "You discover a hidden cache tucked away in a secluded corner of the dungeon. Among the dusty relics lies a small, intricately carved charm. Holding it in your hand, you sense a faint but reassuring presence, as if luck itself has chosen to accompany you on your journey."
+  },
+  "127": {
+      "Enemies": "This room is clear",
+      "Items": "Ancient scroll",
+      "Description": "In a forgotten library chamber, you uncover an ancient scroll adorned with ornate symbols and faded script. As you unroll it, a surge of mystical energy fills the air, promising insights and knowledge that could turn the tide of your quest. None."
+  },
+  "128": {
+      "Enemies": "Wraith",
+      "Items": "None",
+      "Description": "You enter a desolate hall where shadows seem to come alive, coalescing into a spectral form. A wraith materializes before you, its chilling presence sending shivers down your spine. Its ethereal gaze suggests a hunger for something beyond mortal comprehension, hinting at a tale of unfinished business."
+  },
+  "129": {
+      "Enemies": "This room is clear",
+      "Items": "Mysterious amulet (+1 LUCK)",
+      "Description": "A glint of light leads you to a hidden alcove where an ancient amulet rests on a velvet cushion. Its intricate designs sparkle with arcane power, inviting you to claim its mysterious blessings. As you fasten it around your neck, a sense of newfound luck fills your being. None."
+  },
+  "130": {
+      "Enemies": "",
+      "Items": "Golden coin (+1 LUCK)",
+      "Description": "You uncover a treasure trove hidden beneath layers of dust and decay. Among the glittering artifacts lies a golden coin, its surface polished to a mirror-like sheen. Holding it in your palm, you feel a surge of fortune coursing through you, as if wealth and luck have become intertwined. None."
+  },
+  "131": {
+      "Enemies": "",
+      "Items": "Enchanted ring (+1 LUCK)",
+      "Description": "In a chamber illuminated by ethereal light, you discover an enchanted ring adorned with ancient runes. As you slip it onto your finger, a gentle warmth spreads through your hand, accompanied by a sense of serenity and a whispered promise of luck in the face of adversity. None."
+  },
+  "132": {
+      "Enemies": "Treasure Guardian",
+      "Items": "None",
+      "Description": "You encounter a fearsome guardian standing vigil over a trove of riches. Clad in gleaming armor and wielding a sword that crackles with arcane energy, the guardian's presence radiates authority and determination. Defeating this formidable foe promises rewards beyond measure, but the challenge ahead is daunting."
+  },
+  "133": {
+      "Enemies": "This room is clear",
+      "Items": "Cursed artifact (-3 LUCK)",
+      "Description": "In a chamber adorned with mysterious symbols, you stumble upon a cursed artifact sealed within an ornate chest. Its malevolent aura whispers tales of misfortune and ill omens. Despite the warnings, curiosity tempts you to claim its dark power, knowing that such relics often come at a price."
+  },
+  "134": {
+      "Enemies": "This room is clear",
+      "Items": "None",
+      "Description": "You enter a tranquil sanctuary hidden deep within the dungeon, where a soft glow emanates from ancient crystals embedded in the walls. The air is imbued with a sense of peace, offering a brief respite from the perils that await beyond. None."
+  },
+  "135": {
+      "Enemies": "This room is clear",
+      "Items": "Mirage stone (+1 LUCK)",
+      "Description": "A mysterious stone lies at the center of a sunlit chamber, its surface shimmering with illusions that dance like playful spirits. As you approach, the stone's magic grants you a fleeting glimpse of distant landscapes and forgotten memories, leaving you with a sense of wonder and enhanced fortune. None."
+  },
+  "136": {
+      "Enemies": "Dark Sorcerer",
+      "Items": "None",
+      "Description": "You confront a dark sorcerer amidst an arcane sanctum, surrounded by swirling shadows and crackling energy. With a wave of their hand, the sorcerer conjures dark tendrils that twist and writhe with malevolent intent. The battle ahead promises to test your resolve and cunning against formidable magic."
+  },
+  "137": {
+      "Enemies": "This room is clear",
+      "Items": "Whispering skull (-3 LUCK)",
+      "Description": "Within a chamber filled with the remnants of forgotten rituals, you find a whispering skull atop a crumbling altar. Its hollow eyes seem to speak of secrets and lost knowledge, yet its presence carries an unsettling aura that whispers of impending misfortune. None."
+  },
+  "138": {
+      "Enemies": "This room is clear",
+      "Items": "Radiant gemstone (+1 LUCK)",
+      "Description": "In the heart of the dungeon, you discover a radiant gemstone glowing with an inner light that defies the darkness. Its brilliance promises good fortune and protection against unseen perils, beckoning you to claim its shimmering blessings. None."
+  },
+  "139": {
+      "Enemies": "Spectral Guardian",
+      "Items": "None",
+      "Description": "You encounter a spectral guardian, its ethereal form wreathed in ghostly flames. With a mournful wail, the guardian reaches out, its touch chilling your very soul. The battle against this otherworldly foe demands courage and resilience, as victory holds the promise of untold rewards and spiritual enlightenment."
+  },
+  "140": {
+      "Enemies": "This room is clear",
+      "Items": "Starlit potion (+4 HP)",
+      "Description": "You discover a vial containing a potion shimmering with starlight, its celestial essence radiating hope and serenity. As you drink it, a sense of cosmic harmony fills your being, aligning your path with the auspicious forces of the universe. None."
   },
   "777": {
     "Enemies": "You",
