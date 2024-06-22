@@ -3,8 +3,8 @@ import json
 import os
 
 
-def roll_dice(n=6) -> int:
-    return randint(1, n)
+def roll_dice(n=1, m=6) -> int:
+    return randint(n, m)
 
 
 class Room:
@@ -13,7 +13,7 @@ class Room:
             content = file.read()
 
         self.all_rooms = json.loads(content)
-        self.max_room = int(list(self.all_rooms.keys())[-1])
+        self.max_room = int(list(self.all_rooms.keys())[-3])
         self.room_number = num
 
     def check_enemies(self) -> bool:
@@ -27,10 +27,8 @@ class Room:
         if self.check_enemies():
             battle = plr.battle()
             if battle[0]:
-                print("Won")
                 plr.change_stat("health", -battle[1])
             else:
-                print("Lost")
                 plr.write_data("0,0,0,0")
 
         return self.all_rooms[str(self.room_number)]["Enemies"]
@@ -112,7 +110,7 @@ class Player:
             return data.read().strip()
 
     def generate_stats(self) -> None:
-        health, damage, luck = roll_dice() * 2 + 6, roll_dice() * 2 + 3, roll_dice()
+        health, damage, luck = roll_dice(n=3) * 3 + 3, roll_dice(n=3) * 2, roll_dice()
         self.write_data(f"{health},{damage},{luck},0")
 
     def change_stat(self, stat: str, n: int) -> None:
@@ -140,12 +138,11 @@ class Player:
         return int(self.read_data().split(',')[3])
 
     def battle(self):
-        print("Fight")
         user_health = self.get_health()
         user_damage = self.get_damage()
         user_luck = self.get_luck()
 
-        enemy_health, enemy_damage = randint(4, 12), randint(1, 8)
+        enemy_health, enemy_damage = randint(4, 14), randint(1, 5)
         user_luck *= 3
 
         damage_received = 0
