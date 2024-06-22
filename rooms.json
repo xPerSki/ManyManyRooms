@@ -3,7 +3,6 @@
     "Enemies": "This room is clear",
     "Items": "Flashlight",
     "Description": "You suddenly wake up in a dark room. All you can see is a source of thin light. You come closer to see what it is. It happens to be just a regular flashlight. You pick it up, and then you go deeper into the darkness..."
-
   },
   "1": {
     "Enemies": "A single, growling zombie",
@@ -12,17 +11,17 @@
   },
   "2": {
     "Enemies": "This room is clear",
-    "Items": "Health potion",
+    "Items": "Health potion (+5 HP)",
     "Description": "You step into an eerily quiet room, your footsteps echoing off the stone walls. Ancient runes, faintly glowing, cover every inch of the room, casting an otherworldly light. In the center, on a pedestal, rests a small, glowing vial. As you approach, you feel warmth emanating from it - a health potion. It promises some relief from the perils you've faced so far."
   },
   "3": {
-    "Enemies": "Two giant spiders",
-    "Items": "Silver dagger",
-    "Description": "Cobwebs hang like curtains from the ceiling, and you can hear the skittering of legs on stone. Two enormous spiders descend from above, their eyes glinting with malice. Your pulse quickens as you realize they're blocking your path. But then, in the corner, a glint catches your eye - a silver dagger. It might just be your salvation against these monstrous arachnids."
+    "Enemies": "Two spiders (escaped)",
+    "Items": "Silver dagger (+3 DMG)",
+    "Description": "Cobwebs hang like curtains from the ceiling, and you can hear the skittering of legs on stone. Two enormous spiders descend from above, their eyes glinting with malice. Your pulse quickens as you realize they're blocking your path. But then, in the corner, a glint catches your eye - a silver dagger. With the speed of light, you grab the weapon and run to the next door."
   },
   "4": {
     "Enemies": "This room is clear",
-    "Items": "Ancient map",
+    "Items": "Ancient map (+2 LUCK)",
     "Description": "Dust fills the air as you enter, causing you to stifle a cough. The walls are lined with old, crumbling books and scrolls, their knowledge lost to time. In the center of the room, a large table holds an ancient map, its edges frayed and ink faded. Studying it, you realize it details pathways and hidden rooms that could lead you closer to freedom."
   },
   "5": {
@@ -32,27 +31,27 @@
   },
   "6": {
     "Enemies": "This room is clear",
-    "Items": "Magic amulet",
+    "Items": "Magic Amulet (magic item)",
     "Description": "Soft, blue light bathes the room, emanating from a mystical circle inscribed on the floor. The air hums with magical energy, and you feel a strange sense of calm. In the center of the circle, a magic amulet hovers, spinning slowly. Its power is palpable, and you sense it could offer great protection or aid in the trials ahead."
   },
   "7": {
-    "Enemies": "Three skeletal warriors",
-    "Items": "Shield",
-    "Description": "The sound of clattering bones greets you as you step into the room. A cold, unsettling presence fills the air, making your skin crawl. Three skeletal warriors, clad in ancient armor, stand guard over a pile of old weapons. Among them, you spot a sturdy shield. As the skeletons advance, you realize you'll need it to fend off their relentless assault."
+    "Enemies": "This room is clear",
+    "Items": "None",
+    "Description": "The sound of clattering bones greets you as you step into the room. A cold, unsettling presence fills the air, making your skin crawl. Three skeletal warriors are lying on the floor. Among them, you spot a sturdy shield. As the skeletons advance, you realize you have to run."
   },
   "8": {
     "Enemies": "This room is clear",
-    "Items": "Lockpick set",
-    "Description": "The room is small and claustrophobic, with rough stone walls that seem to close in on you. Every sound is amplified in the confined space. On a wooden shelf, you find a lockpick set. It’s a small glimmer of hope, a tool that might unlock barriers you have yet to face, providing a way to escape or find hidden treasures."
+    "Items": "Few Coins (+2 LUCK)",
+    "Description": "The room is small and claustrophobic, with rough stone walls that seem to close in on you. Every sound is amplified in the confined space. On a wooden shelf, you find a few coins."
   },
   "9": {
-    "Enemies": "A fire-breathing dragon",
+    "Enemies": "Colossal Dragon",
     "Items": "Golden chalice",
     "Description": "You enter a vast, cavernous room, the ceiling soaring high above and walls sparkling with embedded gems. The ground trembles beneath your feet, and you feel the heat before you see it. In the center of the room, a colossal dragon, its scales shimmering with fire, guards a golden chalice. The dragon’s eyes lock onto you, and you know this will be your greatest challenge yet. The chalice it guards could hold unimaginable power, but you'll have to face the beast to claim it."
   },
   "10": {
     "Enemies": "None",
-    "Items": "Mystic scroll",
+    "Items": "Mystic scroll (Cannot Read)",
     "Description": "You enter a room filled with a soft, golden light. Shelves line the walls, filled with ancient tomes and artifacts. In the center of the room, on a pedestal, lies a mystic scroll. Its surface glows faintly, hinting at powerful secrets within."
   },
   "11": {
@@ -62,7 +61,7 @@
   },
   "12": {
     "Enemies": "This room is clear",
-    "Items": "Healing herbs",
+    "Items": "Healing herbs (+3 HP)",
     "Description": "The air is fresh and sweet in this room, filled with the scent of blooming flowers. Patches of healing herbs grow along the walls, offering a natural remedy for your wounds. The tranquil atmosphere is a stark contrast to the dangers outside."
   },
   "13": {
@@ -72,11 +71,11 @@
   },
   "14": {
     "Enemies": "This room is clear",
-    "Items": "Crystal ball",
+    "Items": "Crystal ball - It tells you that you haven't missed any key in the past",
     "Description": "A mysterious aura fills this room. In the center, on a velvet-covered table, sits a crystal ball. It shimmers with inner light, hinting at its ability to reveal visions of the future or past."
   },
   "15": {
-    "Enemies": "A giant serpent",
+    "Enemies": "This room is clear",
     "Items": "None",
     "Description": "The room is warm and humid, reminiscent of a jungle. Coiled in the center is a giant serpent, its eyes following your every move. The serpent hisses menacingly, blocking your path and leaving you with no choice but to confront it."
   },
@@ -86,7 +85,7 @@
     "Description": "This room is serene, with walls adorned with beautiful tapestries. On a velvet cushion in the center rests a golden locket. It looks valuable and possibly enchanted, promising to hold more than just memories."
   },
   "17": {
-    "Enemies": "Ghostly apparition",
+    "Enemies": "This room is clear",
     "Items": "None",
     "Description": "The temperature drops sharply as you enter this room. A ghostly apparition materializes before you, its hollow eyes filled with sorrow. The ghost moves closer, its presence filling you with a profound sense of melancholy."
   },
@@ -106,7 +105,7 @@
     "Description": "The room is lined with tall, dusty bookshelves. An ancient tome lies open on a reading desk, its pages filled with cryptic symbols and arcane knowledge. It beckons you to uncover its secrets."
   },
   "21": {
-    "Enemies": "A pack of wild wolves",
+    "Enemies": "This room is clear",
     "Items": "Bow and arrows",
     "Description": "You step into a forest-like room, the ground covered in leaves and the air filled with the scent of pine. A pack of wild wolves emerges from the shadows, growling. Against a tree, you spot a bow and arrows, your potential salvation."
   },
@@ -126,7 +125,7 @@
     "Description": "The room is reminiscent of an elven banquet hall, with elegant carvings and soft, ethereal music. On a table covered in fine cloth, you find a bottle of elven wine. It’s said to have restorative properties."
   },
   "25": {
-    "Enemies": "A group of bandits",
+    "Enemies": "This room is clear",
     "Items": "None",
     "Description": "The room feels like a den of thieves, with makeshift furniture and scattered loot. A group of bandits eyes you with hostility, ready to defend their ill-gotten gains."
   },
@@ -149,5 +148,15 @@
     "Enemies": "A powerful sorcerer",
     "Items": "None",
     "Description": "The room is filled with arcane symbols and the air crackles with magical energy. A powerful sorcerer stands in the center, chanting an incantation. His eyes meet yours, and you feel a wave of magical force emanate from him, challenging you."
+  },
+  "777": {
+    "Enemies": "You",
+    "Items": "Obsidian Key",
+    "Description": "As you step into room 777, a wave of disorientation washes over you. The room is a perfect mirror of the one you just left, but something feels deeply wrong. The walls are covered in reflective surfaces, casting your image back at you from every angle. The air is thick with a sense of deja vu, and a chill runs down your spine. In the center of the room stands a figure that looks exactly like you - your doppelganger. It mirrors your movements, but its eyes are filled with a malevolent glint. You realize with a start that this is no mere reflection, but an enemy with your skills, your strengths, and your weaknesses. On a pedestal behind the doppelganger lies an obsidian key, its dark surface gleaming ominously. You know instinctively that this key is crucial to your journey, but retrieving it means facing your most formidable opponent: yourself. The doppelganger smirks, as if reading your thoughts, and you brace yourself for the ultimate confrontation."
+  },
+  "1337": {
+    "Enemies": "All cleared",
+    "Items": "Freedom",
+    "Description": "You Win! That was a tough adventure, but you managed to do it on your own! Congratulations on finishing the game, hope you liked it. See you on the other side..."
   }
 }
