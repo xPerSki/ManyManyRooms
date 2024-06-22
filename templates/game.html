@@ -77,21 +77,25 @@
 <!--End of Preparation Room-->
 
 <!--Other Rooms-->
-{% if room > 0 %}
+{% if 0 < room <= 777 %}
 <div class="text-center left-right">
     <h2 class="desc" style="color: aqua;">Items in this room: {{ items }}</h2>
     <h2 style="color: red;">Enemies in this room: {{ enemies }}</h2>
+    {% if fight == 1 %}
+    {% if health > 0 %}
+    <h4 style="color: red;">Fight Won</h4>
+    {% else %}
+    <h4 style="color: red;">Fight Lost</h4>
+    {% endif %}
+    {% endif %}
+    <h4 style="color: green;">Health: {{ health }}</h4>
+    {% endif %}
 </div>
-{% endif %}
-
 <!--End of Other Rooms-->
 
-<!--Final Room-->
-
-
-<!--End of Final Room-->
-
 <!--Path Selection-->
+{% if health > 0 %}
+{% if room < 1337 %}
 <div class="desc big-left-right">
     <div class="row">
         <div class="col-4 text-center">
@@ -116,6 +120,22 @@
         </div>
     </div>
 </div>
+{% else %}
+<div class="text-center desc">
+    <h5>Start Over</h5>
+    <a href="{{ url_for('main') }}">
+        <button class="btn btn-outline-success btn-lg">Time Travel</button>
+    </a>
+</div>
+{% endif%}
+{% else %}
+<div class="desc big-left-right text-center">
+    <h5>You are Dead</h5>
+    <a href="{{ url_for('main') }}">
+        <button class="btn btn-outline-danger btn-lg">Wake Up</button>
+    </a>
+</div>
+{% endif %}
 <!--End of Path Selection-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
