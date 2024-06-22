@@ -16,11 +16,12 @@
     </div>
 </nav>
 
-<!--Room-->
+<!--Room Description-->
 <div class="text-center left-right">
     <h1 class="room-title">Room {{ room }}</h1>
     <h1 class="desc">{{ description }}</h1>
 </div>
+<!--End of Room Description-->
 
 <!--Preparation Room-->
 {% if room == 0 %}
@@ -71,8 +72,51 @@
             </div>
         </div>
     </div>
-{% endif %}
 </div>
+{% endif %}
+<!--End of Preparation Room-->
+
+<!--Other Rooms-->
+{% if room > 0 %}
+<div class="text-center left-right">
+    <h2 class="desc" style="color: aqua;">Items in this room: {{ items }}</h2>
+    <h2 style="color: red;">Enemies in this room: {{ enemies }}</h2>
+</div>
+{% endif %}
+
+<!--End of Other Rooms-->
+
+<!--Final Room-->
+
+
+<!--End of Final Room-->
+
+<!--Path Selection-->
+<div class="desc big-left-right">
+    <div class="row">
+        <div class="col-4 text-center">
+            <h5>Turn Left</h5>
+            <a href="{{ url_for('room', room_number=room+left) }}">
+                <button class="btn btn-outline-success btn-lg">Select</button>
+            </a>
+        </div>
+
+        <div class="col-4 text-center">
+            <h5>Go Straight</h5>
+            <a href="{{ url_for('room', room_number=room+straight) }}">
+                <button class="btn btn-outline-success btn-lg">Select</button>
+            </a>
+        </div>
+
+        <div class="col-4 text-center">
+            <h5>Turn Right</h5>
+            <a href="{{ url_for('room', room_number=room+right) }}">
+                <button class="btn btn-outline-success btn-lg">Select</button>
+            </a>
+        </div>
+    </div>
+</div>
+<!--End of Path Selection-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
